@@ -1,0 +1,74 @@
+:root{
+    --color-primary: rgb(56, 119, 151);
+    --color-secondary:rgb(12, 42, 50);
+}
+body{
+    background-color:var(--color-primary);
+    margin: 0;
+}
+.navbar{
+    background-color:var(--color-secondary)!important;
+    height: 50px;
+    width: 100%;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.search{
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--color-secondary);
+
+    border:none;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+}
+.nav-link{
+    margin-right: 50px;
+    color: white !important;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ .user{
+    border: 1px solid var(--color-secondary);
+    background-color: var(--color-secondary);
+    width: 500px;
+    margin: 15px;
+    margin-left: 20px;
+ } 
+ .card{
+    background-color: rgb(140, 203, 222);
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ }
+ .cardimg{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+ }
+ p, h2{
+    color: rgb(18, 111, 109);
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+ }
+ p{
+    font-size: 20px;
+ }
+.custom-tog{
+   background-color: white !important;
+}
